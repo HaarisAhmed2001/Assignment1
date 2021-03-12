@@ -1,0 +1,67 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/user/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Filter",
+            "request": "launch",
+            "mainClass": "Filter",
+            "projectName": "csci2020u_Assignment1_273b00d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpamFilter",
+            "request": "launch",
+            "mainClass": "SpamFilter"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab04",
+            "request": "launch",
+            "mainClass": "lab04"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab05",
+            "request": "launch",
+            "mainClass": "lab05"
+        }
+    ]
+}
